@@ -21,7 +21,7 @@ $.ajax({
 
         console.log(data)
 $.each(data.articles, function(key, value) {
-$('#main').append('<div class="cont"><h6 class="title">"'+ value.title +'"</h6><img class="img" src="'+ value.image +'"" alt=""><p class="content">"'+ value.content +'"</p> <p class="btn"><a class="atag" target=”_blank” href="'+ value.url +'">Read...</a></p><br><div class="dummy"></div></div>');
+$('#main').append('<p id="source">"'+ value.source.name +'"</p><div class="cont"><h6 class="title">"'+ value.title +'"</h6><img class="img" src="'+ value.image +'"" alt=""><p class="content">"'+ value.content +'"</p> <p class="btn"><a class="atag" target=”_blank” href="'+ value.url +'">Read...</a></p><br><div class="dummy"></div></div>');
 console.log(value.image);
 $('.atag').html('Read...')
 });
