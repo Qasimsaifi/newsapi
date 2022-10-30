@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+h2{
+    text-align: center;
+ 
+}
+/* .country{
+    width: 60vw;
+    overflow: scroll;
+}
+#table{
+    width: 50%;
+    overflow: scroll;
+    background: #FFCD10;
+}
+
+.table{
+    width: 60vh;
+} */
